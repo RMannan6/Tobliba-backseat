@@ -4,4 +4,4 @@ Tobiloba NFT Marketplace Back-End Repo
 
 Stack:
 
-  Mongo, Bigchain, Express, NodeJS, Bootstrap
+  - Mongo, Bigchain, Express, NodeJS, Bootstrap
