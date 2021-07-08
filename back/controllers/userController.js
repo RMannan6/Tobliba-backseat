@@ -9,7 +9,6 @@ export const getUsers = asyncHandler(async(req, res) => {
 export const getUserById  = asyncHandler(async(req, res) => {
     const user = await User.findById(req.params.id)
 
-    //if user id match param id send user else throw error
     if(user){
         res.json(user)
     }else{
